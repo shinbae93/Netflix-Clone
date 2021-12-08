@@ -1,0 +1,88 @@
+[debug] [2021-11-14T13:26:27.227Z] ----------------------------------------------------------------------
+[debug] [2021-11-14T13:26:27.231Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nguoi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-14T13:26:27.232Z] CLI Version:   9.22.0
+[debug] [2021-11-14T13:26:27.232Z] Platform:      win32
+[debug] [2021-11-14T13:26:27.232Z] Node Version:  v14.17.6
+[debug] [2021-11-14T13:26:27.234Z] Time:          Sun Nov 14 2021 20:26:27 GMT+0700 (Indochina Time)
+[debug] [2021-11-14T13:26:27.234Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-14T13:26:27.318Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-14T13:26:27.319Z] > authorizing via signed-in user (sine.hungnguyen@gmail.com)
+[debug] [2021-11-14T13:26:27.319Z] [iam] checking project netflix-clone-e2d5c for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-14T13:26:27.322Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-14T13:26:27.322Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-14T13:26:48.404Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2021-11-14T13:26:48.408Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-e2d5c [none]
+[debug] [2021-11-14T13:27:16.402Z] ----------------------------------------------------------------------
+[debug] [2021-11-14T13:27:16.405Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nguoi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-14T13:27:16.405Z] CLI Version:   9.22.0
+[debug] [2021-11-14T13:27:16.406Z] Platform:      win32
+[debug] [2021-11-14T13:27:16.406Z] Node Version:  v14.17.6
+[debug] [2021-11-14T13:27:16.407Z] Time:          Sun Nov 14 2021 20:27:16 GMT+0700 (Indochina Time)
+[debug] [2021-11-14T13:27:16.407Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-14T13:27:16.485Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-14T13:27:16.485Z] > authorizing via signed-in user (sine.hungnguyen@gmail.com)
+[debug] [2021-11-14T13:27:16.485Z] [iam] checking project netflix-clone-e2d5c for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-14T13:27:16.488Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-14T13:27:16.489Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-14T13:27:25.394Z] ----------------------------------------------------------------------
+[debug] [2021-11-14T13:27:25.399Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nguoi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-14T13:27:25.400Z] CLI Version:   9.22.0
+[debug] [2021-11-14T13:27:25.400Z] Platform:      win32
+[debug] [2021-11-14T13:27:25.400Z] Node Version:  v14.17.6
+[debug] [2021-11-14T13:27:25.402Z] Time:          Sun Nov 14 2021 20:27:25 GMT+0700 (Indochina Time)
+[debug] [2021-11-14T13:27:25.402Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-14T13:27:25.503Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-14T13:27:25.503Z] > authorizing via signed-in user (sine.hungnguyen@gmail.com)
+[debug] [2021-11-14T13:27:25.503Z] [iam] checking project netflix-clone-e2d5c for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-14T13:27:25.506Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-14T13:27:25.507Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-14T13:27:25.920Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 14 Nov 2021 13:27:25 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-14T13:27:25.936Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-e2d5c:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-11-14T13:27:30.027Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 14 Nov 2021 13:27:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=820","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-14T13:27:30.031Z] > refreshing access token with scopes: []
+[debug] [2021-11-14T13:27:30.031Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-14T13:27:30.396Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 14 Nov 2021 13:27:29 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-14T13:27:30.412Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-e2d5c [none]
+[debug] [2021-11-14T13:27:31.117Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-e2d5c 200
+[debug] [2021-11-14T13:27:31.118Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-e2d5c {"projectId":"netflix-clone-e2d5c","projectNumber":"741693672782","displayName":"netflix-clone","name":"projects/netflix-clone-e2d5c","resources":{"hostingSite":"netflix-clone-e2d5c"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'netflix-clone-e2d5c'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-11-14T13:27:31.125Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-11-14T13:27:31.126Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-14T13:27:32.033Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 14 Nov 2021 13:27:30 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-14T13:27:32.047Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/netflix-clone-e2d5c/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-11-14T13:27:53.100Z] Error: connect ETIMEDOUT 142.250.204.42:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 142.250.204.42:443
+[debug] [2021-11-14T13:27:59.965Z] ----------------------------------------------------------------------
+[debug] [2021-11-14T13:27:59.969Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nguoi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-11-14T13:27:59.969Z] CLI Version:   9.22.0
+[debug] [2021-11-14T13:27:59.969Z] Platform:      win32
+[debug] [2021-11-14T13:27:59.969Z] Node Version:  v14.17.6
+[debug] [2021-11-14T13:27:59.971Z] Time:          Sun Nov 14 2021 20:27:59 GMT+0700 (Indochina Time)
+[debug] [2021-11-14T13:27:59.971Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-14T13:28:00.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-14T13:28:00.059Z] > authorizing via signed-in user (sine.hungnguyen@gmail.com)
+[debug] [2021-11-14T13:28:00.059Z] [iam] checking project netflix-clone-e2d5c for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-14T13:28:00.062Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-e2d5c:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-11-14T13:28:01.243Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 14 Nov 2021 13:28:00 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=825","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-14T13:28:01.248Z] > refreshing access token with scopes: []
+[debug] [2021-11-14T13:28:01.248Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
